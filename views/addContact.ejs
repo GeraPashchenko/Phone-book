@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Phone Book</title>
+    <script src="./page scripts/addContact-AJAX.js"></script>
+    <link rel="stylesheet" href="./styles/indexStyles.css">
+
+</head>
+
+<body>
+    <a href="/" class="home-bttn">HOME</a>
+    <div class="set-contact-div">
+        <form name="contactForm" id="add-Contact-Form">
+            <label class="add-Contact-Form-Labels">Name:</label>
+            <input type="text" id="name" class="add-Contact-Form-Elements">
+            <label class="add-Contact-Form-Labels">Phone:</label>
+            <input type="text" id="phone" class="add-Contact-Form-Elements">
+            <input type="button" class="add-Contact-Form-bttn" id="AddNewParam-bttn" value="Add new param" onclick="addNewParam()">
+            <a href="/" class="add-Contact-Form-bttn" onclick="sendContact()">SET</a>
+    </div>
+    </form>
+</body>
+
+</html>

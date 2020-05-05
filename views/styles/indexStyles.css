@@ -1,0 +1,73 @@
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid grey;
+    min-width: 150px;
+    overflow-wrap: break-word;
+}
+
+.contact-bttns{
+    display: block;
+    border: 2px solid grey;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+.contact_bttns_div{
+    display: flex;
+    flex-direction: row;
+}
+
+#add-Contact-Form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    /* background-color: aqua; */
+}
+.set-contact-div{
+    display: flex;
+    justify-content: center;
+}
+
+.add-Contact-Form-bttn{
+    display: block;
+    background-color:rgb(54, 51, 51);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.add-Contact-Form-bttn:hover{
+    cursor: pointer;
+    background-color:rgb(95, 94, 94);
+}
+.add-Contact-Form-Elements{
+    margin: 5px;
+    height: 20px;
+}
+.add-Contact-Form-Labels{
+    margin: 5px;
+    font-size: 25px;
+}
+.home-bttn{
+    display: block;
+    background-color: rgb(54, 51, 51);
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.home-bttn:hover{
+    background-color:rgb(95, 94, 94);
+}

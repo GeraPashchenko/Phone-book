@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Phone Book</title>
+    <script src="./page scripts/getContacts-AJAX.js"></script>
+    <link rel="stylesheet" href="./styles/indexStyles.css">
+</head>
+
+<body>
+    <a href="/setContactPage">Set new contact</a>
+    <form>
+        <label>Get contacts by filter</label>
+        <input type="text" id="filter_name" required>
+        <input type="text" id="filter_content" required>
+        <input type="button" value="Filter" onclick="getFilteredContacts()" >
+    </form>
+
+    <div id="contacts-container"></div>
+    <script>
+        window.onload = getContacts();
+    </script>
+</body>
+
+</html>
